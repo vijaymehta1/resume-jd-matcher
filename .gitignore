@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets (kabhi commit mat karna)
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Privacy rule: uploaded resumes kabhi git me commit mat karna.
+# Resume sirf memory/temp me process hoga, repo me save nahi hoga.
+*.pdf
+!data/sample_resume.pdf

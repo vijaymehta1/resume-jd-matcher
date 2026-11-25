@@ -1,0 +1,4 @@
+# Streamlit config — minimal, koi decoration nahi.
+[server]
+headless = true
+port = 8501
